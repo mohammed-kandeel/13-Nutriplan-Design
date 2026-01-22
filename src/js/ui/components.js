@@ -1562,9 +1562,11 @@ export class FoodLog {
 
       this.#logMealBtnIds.addEventListener('click', () => {
          ViewManager.getSection(0);
+         SidebarLinks.setActiveLink(0);
       });
       this.#scanProductBtnIds.addEventListener('click', () => {
          ViewManager.getSection(1);
+         SidebarLinks.setActiveLink(1);
       });
 
       this.#clearFoodlogBtnIds.addEventListener('click', () => {
@@ -1606,4 +1608,5 @@ export class FirstRun {
       FoodLog.init();
    }
 }
+
 
