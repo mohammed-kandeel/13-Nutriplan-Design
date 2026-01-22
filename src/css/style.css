@@ -1,0 +1,11 @@
+.loading {
+   display: none;
+}
+#products-empty,.loadingSpinner {
+   grid-column: 1 / -1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 3rem 0;
+   text-align: center;
+}
