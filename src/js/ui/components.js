@@ -1399,7 +1399,7 @@ export class FoodLog {
    static #getStorWeaklyData() {
       let data = JSON.parse(localStorage.getItem('food-log'));
       if (data) return data;
-      else return;
+      else return [];
    }
    static #storWeaklyData(data) {
       localStorage.setItem('food-log', JSON.stringify(data));
@@ -1606,3 +1606,4 @@ export class FirstRun {
       FoodLog.init();
    }
 }
+
