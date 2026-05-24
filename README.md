@@ -190,36 +190,18 @@ Then open `http://localhost:3000`
 
 ---
 
-## 🔮 Possible Future Improvements
-
-- [ ] User authentication and personal profiles
-- [ ] Custom daily calorie and macro targets
-- [ ] Meal planning calendar
-- [ ] Export food log as PDF
-- [ ] PWA support for offline use
-
----
-
 ## 👤 Author
 
 **Mohammed Kandeel**  
 🔗 [13-Nutriplan-Design](https://github.com/mohammed-kandeel/13-Nutriplan-Design/tree/main)  
 🌐 [Live Demo](https://mohammed-kandeel.github.io/13-Nutriplan-Design/#/home)
 
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 
 
 
 
-
-
-
-//--------------------------------------------
+/*--------------------------------------------
 # NutriPlan - JavaScript Starter Project
 
 Welcome to the NutriPlan starter project! The design is fully complete - your task is to bring it to life with JavaScript.
@@ -340,3 +322,4 @@ To switch between pages, hide/show the relevant sections:
 - **Meals Page**: Show `#search-filters-section`, `#meal-categories-section`, `#all-recipes-section`
 - **Product Scanner**: Show `#products-section`
 - **Food Log**: Show `#foodlog-section`
+  */
